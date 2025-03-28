@@ -1,0 +1,39 @@
+:root {
+  --green: #316e40;
+  --dark-green: #294e28;
+  --black: #031a09;
+  --light-green: #e2f87b;
+  --white: #fdfff6;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--green);
+  color: var(--white);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  width: 80%;
+  background-color: var(--white);
+  position: relative;
+  top: 0;
+  margin: auto;
+  margin-top: 1.5%;
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
+  border-radius: 80px;
+  overflow: hidden;
+  padding: 10px;
+}
+
+header img {
+  height: 100%;
+  width: auto;
+  border-radius: 100%;
+
+}
