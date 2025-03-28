@@ -31,7 +31,11 @@ header {
   padding: 10px;
 }
 
-header img {
+header a {
+    height: 100%;
+}
+
+.logo-img{
   height: 100%;
   width: auto;
   border-radius: 100%;
