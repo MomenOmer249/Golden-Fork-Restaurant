@@ -49,14 +49,13 @@ header {
 }
 
 .welcoming {
- /* font-size: clamp(0.5em, 3.5vw, 2em);*/
-  font-size: 200px;
+  font-size: clamp(0.5em, 3.5vw, 2em);
   color: var(--strong-green);
   margin: auto;
 }
 
 .cart-logo-a {
-  /*align-items: end;*/
+  align-items: end;
   margin-right: 10px;
 }
 
