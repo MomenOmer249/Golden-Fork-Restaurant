@@ -1,10 +1,17 @@
 :root {
   --green: #316e40;
   --dark-green: #294e28;
+  --strong-green: #1e3d1f;
   --black: #031a09;
   --light-green: #e2f87b;
   --white: #fdfff6;
 }
+
+/*@media (max-width: 500px) {
+    .welcoming {
+       display: none;
+    }
+}*/
 
 body {
   font-family: "Roboto", sans-serif;
@@ -24,14 +31,13 @@ header {
   margin: auto;
   margin-top: 1.5%;
   display: flex;
-  /*justify-content: center;*/
   align-items: center;
   border-radius: 80px;
   overflow: hidden;
   padding: 10px;
 }
 
-header a {
+.logo-img-a {
     height: 100%;
 }
 
@@ -40,4 +46,20 @@ header a {
   width: auto;
   border-radius: 100%;
 
+}
+
+.welcoming {
+  font-size: clamp(0.5em, 3.5vw, 2em);
+  color: var(--strong-green);
+  margin: auto;
+}
+
+.cart-logo-a {
+  align-items: end;
+  margin-right: 10px;
+}
+
+#cart-logo {
+  color: var(--strong-green);
+  size: 2.5em;
 }
