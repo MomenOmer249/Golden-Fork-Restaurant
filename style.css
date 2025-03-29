@@ -38,14 +38,13 @@ header {
 }
 
 .logo-img-a {
-    height: 100%;
+  height: 100%;
 }
 
-.logo-img{
+.logo-img {
   height: 100%;
   width: auto;
   border-radius: 100%;
-
 }
 
 .welcoming {
@@ -62,4 +61,38 @@ header {
 #cart-logo {
   color: var(--strong-green);
   size: 2.5em;
+}
+
+.categories-sites {
+  display: flex;
+  justify-content: center; /* Centers the items horizontally */
+  align-items: center; /* Centers the items vertically */
+  flex-wrap: nowrap; /* Prevents wrapping to the next line */
+  gap: 20px; /* Adds consistent spacing between items */
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.categories-sites div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%; /* Adjust width as needed */
+  padding: 10px;
+  border-radius: 20px;
+  background-color: var(--white);
+  color: var(--strong-green);
+  text-align: center;
+}
+
+.categories-sites img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+}
+
+.food-categories {
+  margin-left: 1.5%;
+  font-size: clamp(0.5em, 3.5vw, 2em);
 }
